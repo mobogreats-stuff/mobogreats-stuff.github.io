@@ -1,0 +1,112 @@
+* {
+    font-family: "Arial", sans-serif;
+    font-weight: 300;
+
+    color: #ffffff;
+
+    justify-items: center;
+}
+
+body {
+    background-color: #050620;
+}
+
+#title {
+    background-image: linear-gradient(rgb(255, 94, 0), rgb(255, 187, 0));
+    color: transparent;
+    background-clip: text;
+
+    margin: 0;
+    margin-top: 20px;
+
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
+#member-amount {
+    font-size: 0.95rem;
+}
+
+#member-list {
+    justify-content: center;
+    width: 40vw;
+    height : 200px;
+
+    padding: 5px;
+    max-height: 300px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.member{
+    display: flex;
+    align-items: center;
+
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+
+    border: 1px solid #ff910075;
+    background-color: #ffffff1a;
+}
+
+.member-avatar {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+}
+
+.member-username {
+    margin-left: 15px;
+}
+
+.member-link {
+    display: flex;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.member-link-span {
+    color: #140c00e1;
+    display: flex;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+    align-self: center;
+}
+
+.section-descriptor {
+    margin: 5px;
+    color: #ffffff65;
+}
+
+.section-container {
+    width : 70vw;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    width : 70%;
+}
+
+.section-title {
+    color: #ffffff;
+
+    margin: 5px;
+
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.divider {
+    width: 30%;
+    height: 1px;
+    margin: 20px;
+
+    background-color: #ffffff;
+}

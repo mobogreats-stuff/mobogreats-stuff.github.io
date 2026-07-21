@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Mobogreat's Projects</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+
+<body>
+    <div id = "titlebar">
+        <h2 id="title">Mobogreat's Projects</h2>
+        <h5 class="section-descriptor">Welcome to the big projects page</h5>
+    </div>
+
+    <div id = "description" class="section-container">
+
+        <div class="section">
+            <div class="divider"></div>
+            <h3 class="section-title">Description</h3>
+            <div class="divider"></div>
+        </div>
+
+        <p>
+            Mobogreat's stuff is an organization which is dedicated to creating helpful projects for everyone to use. Below you will find a variety of projects crafted by various developers!
+        </p>
+    </div>
+    <div id = "collaborators" class="section-container"> 
+        <div class="section">
+            <div class="divider"></div>
+            <h3 class="section-title">Collaborators</h3>
+            <div class="divider"></div>
+        </div>
+
+        <h5 class="section-descriptor">total of <span id="member-count">0</span> public members</h5>
+        <ul id="member-list">
+            
+        </ul>
+
+    </div>
+
+    <div id = "projects" class="section-container"> 
+        <div class="section">
+            <div class="divider"></div>
+            <h3 class="section-title">Projects</h3>
+            <div class="divider"></div>
+        </div>
+
+    </div>
+
+    <template id="member-template">
+        <li class="member">
+            <img class="member-avatar" src="" alt="Member Avatar">
+            <span class="member-username"></span>
+            <a class="member-link" href="#" target="_blank"><img src="https://icons.duckduckgo.com/ip3/github.com.ico"><span class="member-link-span">   View Profile</span></a></li>
+        </li>
+    </template>
+
+    <script src = "main.js"></script>
+</body>
