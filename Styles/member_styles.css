@@ -1,0 +1,54 @@
+#member-amount {
+    font-size: 0.95rem;
+}
+
+#member-list {
+    justify-content: center;
+    width: 40vw;
+    height : 200px;
+
+    padding: 5px;
+    max-height: 300px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.member{
+    display: flex;
+    align-items: center;
+
+    width: 90%;
+    margin: 7px;
+    padding: 5px;
+
+    border: 1px solid #ff910075;
+    background-color: #ffffff1a;
+    box-shadow: 0px 0px 10px #da7b0075;
+}
+
+.member-avatar {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+}
+
+.member-username {
+    margin-left: 15px;
+}
+
+.member-link {
+    display: flex;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.member-link-span {
+    color: #140c00e1;
+    display: flex;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+    align-self: center;
+}

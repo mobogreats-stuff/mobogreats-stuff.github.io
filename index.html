@@ -2,7 +2,9 @@
 
 <head>
     <title>Mobogreat's Projects</title>
-    <link rel = "stylesheet" href = "styles.css">
+    <link rel = "stylesheet" href = "Styles/general_styles.css">
+    <link rel = "stylesheet" href = "Styles/member_styles.css">
+    <link rel = "stylesheet" href = "Styles/project_styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -44,14 +46,60 @@
             <h3 class="section-title">Projects</h3>
             <div class="divider"></div>
         </div>
+        <ul id="project-list">
+            <li class="project">
+                <img class="project-img" src="https://tr.rbxcdn.com/180DAY-b5bcfb4c1e09aa0219744bb0a0a17aee/768/432/Image/Webp/noFilter" alt="Project Image">
+                <h4 class="project-title">Project Title</h4>
+                <p class="project-update-info">
+                    <span class="project-creation-date">16/05/2023</span>
+                    <span>-</span>
+                    <span class="project-update-date">now</span>
+                </p>
+                <p class="project-description">Project description goes here.</p>
+                <a class="project-link" href="#" target="_blank">View</a>
+            </li>
 
+            <li class="project">
+                <img class="project-img" src="https://tr.rbxcdn.com/180DAY-b5bcfb4c1e09aa0219744bb0a0a17aee/768/432/Image/Webp/noFilter" alt="Project Image">
+                <h4 class="project-title">Project Title</h4>
+                <p class="project-update-info">
+                    <span class="project-creation-date">16/05/2023</span>
+                    <span>-</span>
+                    <span class="project-update-date">now</span>
+                </p>
+                <p class="project-description">Project description goes here.</p>
+            </li>
+
+            <li class="project">
+                <img class="project-img" src="https://tr.rbxcdn.com/180DAY-b5bcfb4c1e09aa0219744bb0a0a17aee/768/432/Image/Webp/noFilter" alt="Project Image">
+                <h4 class="project-title">Project Title</h4>
+                <p class="project-update-info">
+                    <span class="project-creation-date">16/05/2023</span>
+                    <span>-</span>
+                    <span class="project-update-date">now</span>
+                </p>
+                <p class="project-description">Project description goes here.</p>
+            </li>
+        </ul>
     </div>
 
     <template id="member-template">
         <li class="member">
             <img class="member-avatar" src="" alt="Member Avatar">
             <span class="member-username"></span>
-            <a class="member-link" href="#" target="_blank"><img src="https://icons.duckduckgo.com/ip3/github.com.ico"><span class="member-link-span">   View Profile</span></a></li>
+            <a class="member-link" href="#" target="_blank"><img src="https://github.githubassets.com/favicons/favicon-dark.svg"></a></li>
+        </li>
+    </template>
+
+    <template id="project-template">
+        <li class="project">
+            <h4 class="project-title"></h4>
+            <ul class="project-tags"></ul>
+            <p class="project-update-info">
+                <span class="project-creation-date"></span>
+                <span class="project-update-date"></span>
+            </p>
+            <p class="project-description"></p>
         </li>
     </template>
 
